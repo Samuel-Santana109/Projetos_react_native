@@ -61,9 +61,9 @@ export default function App() {
 async function schedulePushNotification() {
   await Notifications.scheduleNotificationAsync({
     content: {
-      title: "You've got mail! 📬",
-      body: 'Here is the notification body',
-      data: { data: 'goes here' },
+      title: "Ola gitano aqui estao suas notificaçoes 📬",
+      body: 'Samuel Aqui desenvolvendo o seu codigo de notigicaçoes',
+      data: { data: 'Segunda feira' },
     },
     trigger: { seconds: 2 },
   });
