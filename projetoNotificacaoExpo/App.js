@@ -42,7 +42,6 @@ Notifications.setNotificationHandler({
     if (!beacon) {
       return;
     }
-  
     // Conecte-se ao beacon aqui. A implementação exata pode depender
     // do seu beacon específico e da biblioteca que você está usando.
     beacon.connect()
@@ -118,8 +117,8 @@ async function schedulePushNotification() {
   });
 }
 
-// Função assíncrona para registrar o dispositivo para receber notificações
-async function registerForPushNotificationsAsync() {
+
+ async function registerForPushNotificationsAsync() {
   let token;
 
   // Configuração do canal de notificação para Android, se for o sistema operacional atual
